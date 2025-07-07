@@ -2,12 +2,12 @@
  "signatures": [
   {
    "keyid": "3732aef09e34056efde733b5f9ef7706c829ecd44cff6db063e58b49ffce3d5b",
-   "sig": "2a32054aa0a1d7fa2de58550d90b9b85ce613c7638613de7e24199d08dac38f3d6acd4d45f2a4cbb10c3cc730b1694f88a6ad5aa554c50dd9cc4a5f7e5035004"
+   "sig": "2e90309ecdbd9f3f0655f509957e04a09909455e668baed02d668fa615f5173c17d8cde4bca6d3b136806c0eea78328a7a3c2133a7653bd4b7402902c768e60c"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2025-07-07T16:29:58Z",
+  "expires": "2025-07-07T16:42:02Z",
   "spec_version": "1.0.31",
   "targets": {
    "DigiPage-1.0.0.tar.gz": {
@@ -47,8 +47,34 @@
      "sha256": "ae46d9ed360630f66735cefd264d65d994a38abf94baab858e2140655dc1a518"
     },
     "length": 25227547
+   },
+   "DigiPage-1.0.2.patch": {
+    "custom": {
+     "tufup": {
+      "tar_hash": "5e815f3af13c51ef4edf028043092d6c7bf9a019cd0ea67abeda81004f119151",
+      "tar_hash_algorithm": "sha256",
+      "tar_size": 55562240
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "81e9ca1f2f570e48b3bb9e17e2be8ca0f9e4fc2bbc6c7e1a078fb3f632b226fc"
+    },
+    "length": 35713
+   },
+   "DigiPage-1.0.2.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "522bdbb4dbc48e8c2137fc5e55a40a8d7eca5f78469363f1feac4984d4714555"
+    },
+    "length": 25229088
    }
   },
-  "version": 3
+  "version": 4
  }
 }
