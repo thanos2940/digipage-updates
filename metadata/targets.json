@@ -1,0 +1,28 @@
+{
+ "signatures": [
+  {
+   "keyid": "3732aef09e34056efde733b5f9ef7706c829ecd44cff6db063e58b49ffce3d5b",
+   "sig": "b1f8d953e74eb6efe197683509f7d3b7b2e71012125426e3b86938a035e02df630f275bfc6deaba2e02ab15e5fdec0882f8499f66dbc8e1e891ca86621f75c0d"
+  }
+ ],
+ "signed": {
+  "_type": "targets",
+  "expires": "2025-07-07T16:01:14Z",
+  "spec_version": "1.0.31",
+  "targets": {
+   "DigiPage-1.0.0.tar.gz": {
+    "custom": {
+     "tufup": {
+      "required": false
+     },
+     "user": null
+    },
+    "hashes": {
+     "sha256": "c7d91493874710c2b16894d8b3be419476ee127fcf05631c729db5c79b2363fe"
+    },
+    "length": 25228003
+   }
+  },
+  "version": 2
+ }
+}
